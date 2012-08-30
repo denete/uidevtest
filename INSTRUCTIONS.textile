@@ -2,7 +2,7 @@ h1. Instructions
 
 Using the following feed URL, construct a page that is formatted to match the included mockup (uidevtest/mockup.jpg).
 
-http://www.ktvu.com/api/content/v1/story/?per_page=5&format=json
+http://www.ktvu.com/api/content/v1/story/?per_page=5&format=jsonp
 
 The page should render one of the five stories when accessed by the urls below.
 
