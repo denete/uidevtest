@@ -1,10 +1,14 @@
 h1. Instructions
 
-Using the following feed URL, construct a page that is formatted to match the included mockups.
+Using the provided following feed URL, construct a page that is formatted to match the included mockups.
 
 The page layout should be responsive and render as multi-column (uidevtest/mockup-wide.jpg) for viewports greater than 480 pixels and as single-column (uidevtest/mockup.jpg) below that breakpoint.
 
+h2. Feed URL
+
 http://www.ktvu.com/api/content/v1/story/?per_page=5&format=jsonp
+
+h2. URLs and story rendering
 
 The page should render one of the five stories when accessed by the urls below.
 
@@ -14,6 +18,10 @@ uidevtest/src/html/index.html?story=03
 uidevtest/src/html/index.html?story=04
 uidevtest/src/html/index.html?story=05
 
-You may use any JS libraries that you choose for this task. A local copy of jQuery has been provided.
+h2. Evaluation
 
 You will be evaluated on your HTML, CSS, and JavaScript code quality. Place your HTML in uidevtest/src/html/. All other resources should be saved where appropriate in the uidevtest/src hierarchy.
+
+h2. Other Information
+
+You may use any JS libraries that you choose for this task. A local copy of jQuery has been provided.
