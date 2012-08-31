@@ -1,6 +1,8 @@
 h1. Instructions
 
-Using the provided following feed URL, construct a page that is formatted to match the included mockups.
+h2. Your Task
+
+Using the provided feed URL, construct a page that is formatted to match the included mockups.
 
 The page layout should be responsive and render as multi-column (uidevtest/mockup-wide.jpg) for viewports greater than 480 pixels and as single-column (uidevtest/mockup.jpg) below that breakpoint.
 
