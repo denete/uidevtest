@@ -1,6 +1,8 @@
 h1. Instructions
 
-Using the following feed URL, construct a page that is formatted to match the included mockup (uidevtest/mockup.jpg).
+Using the following feed URL, construct a page that is formatted to match the included mockups.
+
+The page layout should be responsive and render as multi-column (uidevtest/mockup-wide.jpg) for viewports greater than 480 pixels and as single-column (uidevtest/mockup.jpg) below that breakpoint.
 
 http://www.ktvu.com/api/content/v1/story/?per_page=5&format=jsonp
 
