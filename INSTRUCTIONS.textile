@@ -2,13 +2,15 @@ h1. Instructions
 
 h2. Your Task
 
-Using the provided feed URL, construct a page that is formatted to match the included mockups.
+Using the provided feed data, construct a page that is formatted to match the included mockups.
 
 The page layout should be responsive and render as multi-column (uidevtest/mockup-wide.jpg) for viewports greater than 480 pixels and as single-column (uidevtest/mockup.jpg) below that breakpoint.
 
-h2. Feed URL
+h2. Feed Data
 
-http://www.ktvu.com/api/content/v1/story/?per_page=5&format=jsonp
+Your page should load data from the provided datafile.
+
+uidevtest/src/js/uidevtest-data.js
 
 h2. URLs and story rendering
 
@@ -19,6 +21,12 @@ uidevtest/src/html/index.html?story=02
 uidevtest/src/html/index.html?story=03
 uidevtest/src/html/index.html?story=04
 uidevtest/src/html/index.html?story=05
+
+h2. Design Attributes
+
+The social links ("Comment", "Share", "Favorite", and "Vote") have full-color sprite icons (uidevtest/src/images/uidevtest-sprite.png). They should display on the page as grayscale icons. Upon mouse-over (hover), they should display as full-color icons. Upon mouse-out, they should return to grayscale state.
+
+TODO: Font and layout information
 
 h2. Evaluation
 
