@@ -2,19 +2,25 @@ h1. Instructions
 
 h2. Your Task
 
-Using the provided feed data, construct a page that is formatted to match the included mockups.
+Using the provided feed data, construct a page that is formatted to match the included mockups. You will only be using one HTML document for this test.
 
 The page layout should be responsive and render as multi-column (uidevtest/mockup-wide.jpg) for viewports greater than 480 pixels and as single-column (uidevtest/mockup.jpg) below that breakpoint.
 
+Place your HTML in uidevtest/src/html/index.html. All other resources should be saved where appropriate in the uidevtest/src hierarchy.
+
 h2. Feed Data
 
-Your page should load data from the provided datafile.
+Your page should load data from the provided datafile. No content should be hard-coded into your document.
 
 uidevtest/src/js/uidevtest-data.js
 
-h2. URLs and story rendering
+h2. URLs and page rendering
 
-The page should render one of the five stories when accessed by the urls below.
+The page should render the story list view (uidevtest/mockup-list.jpg) when accessed by the URL below.
+
+uidevtest/src/html/index.html
+
+The headline links from the story list view should take us to the individual story pages. The page should render one of the five stories from the feed data when accessed by the URLs below.
 
 uidevtest/src/html/index.html?story=01
 uidevtest/src/html/index.html?story=02
@@ -24,13 +30,43 @@ uidevtest/src/html/index.html?story=05
 
 h2. Design Attributes
 
-The social links ("Comment", "Share", "Favorite", and "Vote") have full-color sprite icons (uidevtest/src/images/uidevtest-sprite.png). They should display on the page as grayscale icons. Upon mouse-over (hover), they should display as full-color icons. Upon mouse-out, they should return to grayscale state.
+For most visual elements, you are provided with details on styling below. Other visual elements that are not detailed below will require you to use your best judgement to match the mockups provided.
 
-TODO: Font and layout information
+h3. All layouts
+
+- The social links ("Comment", "Share", "Favorite", and "Vote") have full-color sprite icons (uidevtest/src/images/uidevtest-sprite.png)
+- All typefaces are Arial
+- Breadcrumb is 11px bold, #036dbe
+- Breadcrumb border is #cdcdcd
+- Headline is 24px, #444444
+- "Published" / "Updated" information is 11px, #444444
+- Social links are 11px bold, #036dbe
+- The story text is 14px with 18px line heights, #444444
+- Links are #036dbe
+- The photo caption is 14px with 14px line heights, #444444
+
+h3. Story list layout (all viewport sizes)
+
+- Headline link text is 16px bold, #036dbe
+- Category / categories text is 14px, #444444
+- "Published" / "Updated" information is 14px, #444444
+- images have a dropshadow and a border applied
+
+h3. Three-column story layout (greater than 480px viewport)
+
+- Social links should display on the page as grayscale icons. Upon mouse-over (hover), they should display as full-color icons. Upon mouse-out, they should return to grayscale state.
+- The layout is 260px columns with 15px gutters
+- Photo credit is #000000 over a white background
+- Photo credit background is at 60% opacity
+
+h3. Single-column story layout (480px or less viewport)
+
+- Social links should display as full-color icons. There is no visual change for hover or mouse-over.
+- Photo credit is #898989
 
 h2. Evaluation
 
-You will be evaluated on your HTML, CSS, and JavaScript code quality. Place your HTML in uidevtest/src/html/. All other resources should be saved where appropriate in the uidevtest/src hierarchy.
+You will be evaluated on your HTML, CSS, and JavaScript code quality as well as your attention to detail in completing the code test.
 
 h2. Other Information
 

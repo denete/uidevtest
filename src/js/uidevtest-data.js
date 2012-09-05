@@ -1,8 +1,7 @@
 {
     "objects": [{
         "author": ["Gail Williford"],
-        "categories_id": [592],
-        "categories_name": ["Local"],
+        "categories_name": ["Local","Watersports"],
         "lead_photo_caption": "Jetski Accident",
         "lead_photo_credit": "KTVU.com Staff",
         "lead_photo_image_thumb": "http://media.cmgdigital.com/shared/lt/lt_cache/resize/130x99/img/photos/2012/09/04/21/17/jetski_accident_0904.jpg",
@@ -17,7 +16,6 @@
         "url_path": "/news/news/local/san-jose-family-injured-lake-tahoe-jetski-accident/nR3LG/"
     }, {
         "author": ["Jennifer Warner, Reviewed by Louise Chang, MD"],
-        "categories_id": [945],
         "categories_name": ["Health"],
         "lead_photo_caption": "Cilantro",
         "lead_photo_credit": "KTVU.com Staff",
@@ -33,7 +31,6 @@
         "url_path": "/news/lifestyles/health/tiny-microgreens-packed-nutrients/nR2yW/"
     }, {
         "author": ["KTVU And AP Wires"],
-        "categories_id": [592],
         "categories_name": ["Local"],
         "lead_photo_caption": "Sinkhole at School",
         "lead_photo_credit": "KTVU.com Staff",
@@ -49,7 +46,6 @@
         "url_path": "/news/news/local/sf-school-shutdown-massive-water-main-break-reopen/nR3K2/"
     }, {
         "author": ["KTVU And AP Wires"],
-        "categories_id": [592],
         "categories_name": ["Local"],
         "lead_photo_caption": null,
         "lead_photo_credit": "KTVU.com Staff",
@@ -65,8 +61,7 @@
         "url_path": "/news/news/local/cal-state-faculty-approve-4-year-contract/nR3KW/"
     }, {
         "author": ["Larry Walls"],
-        "categories_id": [592],
-        "categories_name": ["Local"],
+        "categories_name": ["Local","Safety"],
         "lead_photo_caption": "California Wildfire Helicopter",
         "lead_photo_credit": "Associated Press",
         "lead_photo_image_thumb": "http://media.cmgdigital.com/shared/lt/lt_cache/resize/130x99/img/photos/2012/09/04/6c/9b/California_Wildfires_Murr.jpg",
